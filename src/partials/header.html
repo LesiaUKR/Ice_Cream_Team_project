@@ -1,0 +1,75 @@
+<header class="header">
+  <div class="container header__container">
+    <a class="logo" href="./index.html">
+      <picture>
+        <source
+          media="(min-width: 1200px)"
+          srcset="
+            ./images/hero/logo_lg-@1x.png 1x,
+            ./images/hero/logo_lg-@2x.png 2x
+          "
+        />
+        <source
+          media="(min-width: 768px)"
+          srcset="
+            ./images/hero/logo_md-@1x.png 1x,
+            ./images/hero/logo_md-@2x.png 2x
+          "
+        />
+        <source
+          media="(min-width: 480px)"
+          srcset="
+            ./images/hero/logo_sm-@1x.png 1x,
+            ./images/hero/logo_sm-@2x.png 2x
+          "
+        />
+        <source
+          media="(min-width: 320px)"
+          srcset="
+            ./images/hero/logo_sm-@1x.png 1x,
+            ./images/hero/logo_sm-@2x.png 2x
+          "
+        />
+        <img
+          class="logo__icon"
+          src="./images/hero/logo_md-@1x.png"
+          alt="many ice-cream"
+        />
+      </picture>
+    </a>
+    <nav class="nav">
+      <ul class="nav__list list">
+        <li class="nav__item"><a href="" class="link">Home</a></li>
+        <li class="nav__item">
+          <a href="#how" class="link">how it's made?</a>
+        </li>
+        <li class="nav__item">
+          <a href="#products" class="link">Our products</a>
+        </li>
+        <li class="nav__item"><a href="#contact" class="link">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="header__btn-group">
+      <button
+        class="btn-menu js-open-menu"
+        type="button"
+        aria-expanded="false"
+        aria-controls="mobile-menu"
+      >
+        <svg class="btn-menu__icon" width="32" height="32">
+          <use href="./images/sprite.svg#icon-mobile-menu"></use>
+        </svg>
+      </button>
+      <button
+        class="buy-btn header__btn js-open-modal"
+        type="button"
+        data-modal="1"
+      >
+        Buy now
+        <svg class="buy-btn__icon" width="12" height="12">
+          <use href="./images/sprite.svg#icon-buy"></use>
+        </svg>
+      </button>
+    </div>
+  </div>
+</header>

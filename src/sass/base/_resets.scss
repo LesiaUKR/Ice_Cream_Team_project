@@ -1,0 +1,38 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
+
+
+a:hover,
+a:focus {
+    cursor: url(../images/Cursor.png) 8 8, pointer;
+}
+
+button:hover,
+button:focus {
+    cursor: url(../images/Cursor.png) 8 8, pointer;
+}

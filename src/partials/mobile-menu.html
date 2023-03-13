@@ -1,0 +1,62 @@
+<div class="menu-container js-menu-container" id="mobile-menu">
+  <a class="logo" href="./index.html">
+    <picture>
+      <source
+        media="(min-width: 768px)"
+        srcset="
+          ./images/hero/logo_md-@1x.png 1x,
+          ./images/hero/logo_md-@2x.png 2x
+        "
+      />
+      <source
+        media="(min-width: 480px)"
+        srcset="
+          ./images/hero/logo_sm-@1x.png 1x,
+          ./images/hero/logo_sm-@2x.png 2x
+        "
+      />
+      <source
+        media="(min-width: 320px)"
+        srcset="
+          ./images/hero/logo_sm-@1x.png 1x,
+          ./images/hero/logo_sm-@2x.png 2x
+        "
+      />
+      <img
+        class="logo__menu"
+        src="./images/hero/logo_md-@1x.png"
+        alt="many ice-cream"
+      />
+    </picture>
+  </a>
+  <button class="menu-toggle js-close-menu">
+    <svg width="32" height="32">
+      <use href="./images/sprite.svg#icon-close-btn"></use>
+    </svg>
+  </button>
+
+  <ul class="mobile-menu list">
+    <li class="mobile-nav">
+      <a class="mobile-link link" href="./index.html">Home</a>
+    </li>
+    <li class="mobile-nav">
+      <a class="mobile-link link anchor" href="#how">How it’s made?</a>
+    </li>
+    <li class="mobile-nav">
+      <a class="mobile-link link anchor-2" href="#products">Our products</a>
+    </li>
+    <li class="mobile-nav">
+      <a class="mobile-link link anchor-3" href="#contact">Contact</a>
+    </li>
+  </ul>
+  <button
+    class="mob-btn js-open-modal modal-close"
+    type="button"
+    data-modal="1"
+  >
+    Buy now
+    <svg class="buy-btn__icon" width="12" height="12">
+      <use href="./images/sprite.svg#icon-buy"></use>
+    </svg>
+  </button>
+</div>
